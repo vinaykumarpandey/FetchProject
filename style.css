@@ -1,0 +1,14 @@
+.car-brand-table {
+    width: 50%;
+    border-collapse: collapse; /* This makes the borders merge */
+  }
+  
+  .car-brand-table, .car-brand-table th, .car-brand-table td {
+    border: 1px solid black; /* Apply border to table, headers, and cells */
+  }
+  
+  .car-brand-table th, .car-brand-table td {
+    padding: 8px;
+    text-align: left;
+  }
+  

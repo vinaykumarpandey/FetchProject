@@ -2,6 +2,8 @@ function displayCarBrands(response) {
    const carBrandList = document.getElementById('car-brand-list')
    carBrandList.innerHTML ='';
 
+   console.log("The reponse is " + response);
+
    response.forEach(car => {
      const carBrandDiv = document.createElement('div');
      carBrandDiv.className = 'car-brand';
